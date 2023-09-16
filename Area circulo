@@ -1,0 +1,27 @@
+#include <iostream>
+
+#include <stdio.h>
+
+int main(void)
+{
+   
+    int altura;
+    int base;
+    int circulo
+    int radio
+    
+
+    double Radio;
+
+    // Solicitar al usuario que ingrese el Radio del Circulo
+    printf("Ingrese el Radio del Circulo: ");
+    scanf_s("%lf", &Radio);
+
+    // Calcular el Area del Circulo usando la formula: area = pi * radio * radio
+    double area = 3.14159265359 * Radio * Radio;
+
+    // Mostrar el resultado
+    printf("El Area del Circulo con radio %.2lf es %.2lf\n", radio, area);
+
+    return 0;
+}
