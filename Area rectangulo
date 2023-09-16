@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+#include <iostream>
+
+int main()
+{
+    int area;
+    int altura;
+    int base;
+    printf("Altura:");
+    scanf_s("%i", &altura);
+    printf("Base:");
+    scanf_s("%i", &base);
+    area = base * altura;
+    printf("El cuadrado de %i x %i tiene area de %i", base, altura, area);
+
+    printf("Ingrese la longitud del lado del rectangulo: ");
+    scanf("%f", &lado);
+
+   //Calculo
+
+    area = lado * lado;
+
+    printf("El área del rectangulo es: %.2f\n", area);
+
+    return 0;
